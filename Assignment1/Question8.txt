@@ -1,0 +1,1 @@
+The <img> tag is used to embed images in HTML, specifying the source and providing alternative text. It is a self-closing tag. In contrast, the <figure> tag is used to group self-contained content, often images, with an optional caption using the <figcaption> tag. The <figure> tag requires both an opening and closing tag.

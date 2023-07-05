@@ -1,0 +1,3 @@
+In HTML, a tag represents an element, while an attribute provides extra information or modifies an element's behavior. A tag defines the structure, such as <p> for a paragraph. An attribute is specified within the opening tag, adding details. 
+For example, the class attribute assigns CSS classes for styling, 'id' provides a unique identifier, 'style' allows inline CSS, 'title' specifies tooltip text, and 'data-*' allows custom data attributes. These global attributes can be applied to various elements, enhancing functionality and customization.
+Overall, tags define elements, while attributes enrich their characteristics and enable fine-grained control over HTML elements.

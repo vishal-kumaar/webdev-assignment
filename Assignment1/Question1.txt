@@ -1,0 +1,1 @@
+No, <!DOCTYPE html> is not a tag in HTML. It is a document type declaration, specifying the version of HTML used in the document. It helps browsers understand how to interpret the HTML code, ensuring proper rendering and compatibility.

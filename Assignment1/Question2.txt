@@ -1,0 +1,1 @@
+Semantic tags in HTML are elements that provide meaning and structure to the content within a web page. Examples include <header>, <nav>, <article>, <section>, and <footer>. They help search engines, assistive technologies, and developers understand the purpose and hierarchy of content, improving accessibility, SEO, and code readability.

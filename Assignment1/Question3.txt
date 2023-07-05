@@ -1,0 +1,5 @@
+Tags are used to mark up and define the structure of the content within an HTML document. They are represented by opening and closing angle brackets, such as <tag> and </tag>. Examples include <div>, <p>, and <img>.
+
+Elements, on the other hand, consist of both the opening and closing tags along with the content they enclose. For instance, <p>Some text</p> is an element where <p> is the opening tag, "Some text" is the content, and </p> is the closing tag.
+
+In summary, tags define the type of an HTML element, while elements consist of tags and the content they enclose.
