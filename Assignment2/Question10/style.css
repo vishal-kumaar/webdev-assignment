@@ -1,0 +1,125 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header" "main" "boxes";
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-gap: 25px;
+    grid-area: header;
+    height: 100px;
+}
+
+.main {
+    grid-area: main;
+    padding-top: 2px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 25px;
+    padding: 2px;
+    grid-area: boxes;
+    height: 100px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.blue-box {
+    background-color: #B2D5EB;
+}
+
+.Blue-box {
+    background-color: #65A0CC;
+}
+
+.grey-box {
+    background-color: #ABABA9;
+}
+
+.main-box {
+    background-color: #797977;
+    height: 100%;
+}
+
+.footer {
+    display: block;
+    padding-top: 5px;
+    margin-top: 15px;
+    background-color: #ABABA9;
+    height: 400%;
+}
+
+/* Media Query for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .grid-container {
+        height: 73vh;
+    }
+
+    .main-box {
+        padding: 20px;
+        height: 78%;
+    }
+
+    .boxes {
+        height: 150px;
+        grid-gap: 10px;
+    }
+
+}
+
+/* Media query for mobile  */
+@media only screen and (max-width: 480px) {
+    .grid-container {
+        height: 90vh;
+    }
+
+    .main {
+        grid-area: main;
+        padding-top: 2px;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .main-box {
+        height: 70%;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 25px;
+        grid-area: boxes;
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+    }
+
+    .blue-box {
+        height: 100px;
+    }
+
+    .tablet-box {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 769px),
+only screen and (min-width: 1025px) and (max-width: 1279px),
+only screen and (min-width: 1281px) {
+    .tablet-box {
+        display: none;
+    }
+}

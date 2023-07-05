@@ -1,0 +1,5 @@
+Difference between Content box and Border box:-
+
+- Content Box (default): In the content-box model, the width and height of an element are calculated by considering only the content area, excluding padding, border, and margin. This means that the total width and height of an element will be the sum of its content, padding, and border widths.
+
+- Border-box: In the border-box model, the width and height of an element are calculated by including the content, padding, and border widths. This means that the specified width and height of an element will be inclusive of the padding and border, and the content area will adjust to fit within those dimensions.

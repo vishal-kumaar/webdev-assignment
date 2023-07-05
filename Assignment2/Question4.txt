@@ -1,0 +1,3 @@
+- Inline elements flow within the text and do not create line breaks. They occupy only the space required for their content.
+- Inline-block elements behave like inline elements but can have width, height, margin, and padding properties. They respect line breaks and can be positioned vertically.
+- Block elements create line breaks and occupy the full available width. They stack vertically and can have width, height, margin, and padding properties. Block elements are commonly used for structural elements, while inline and inline-block elements are suitable for inline or inline-level content such as text spans or images within a block-level context.

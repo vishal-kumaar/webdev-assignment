@@ -1,0 +1,10 @@
+1. Absolute vs. Relative Positioning:-
+
+a. Absolute positioning: An absolutely positioned element is positioned relative to its nearest positioned ancestor or the containing block. It is taken out of the normal flow of the document.
+
+b. Relative positioning: A relatively positioned element is positioned relative to its normal position in the document flow. It retains its position within the flow, and other elements are not affected.
+
+2. Sticky vs. Fixed Positioning:-
+
+a. Sticky positioning: A sticky positioned element is initially in the normal flow, but it becomes fixed (stays in place) when the user scrolls to a certain threshold. It toggles between relative and fixed positioning based on the scroll position.
+b. Fixed positioning: A fixed positioned element is positioned relative to the viewport and remains fixed even when the page is scrolled. It does not move with scrolling.

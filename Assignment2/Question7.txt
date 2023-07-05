@@ -1,0 +1,5 @@
+Grid and Flex are CSS layout systems used for creating responsive and flexible web designs.
+
+1. Grid: CSS Grid Layout is a two-dimensional layout system that allows precise control over rows and columns. It enables the creation of complex grid structures and provides extensive control over the placement and alignment of elements. Grid is best suited for creating grid-based designs, such as complex layouts with multiple sections and grids.
+
+2. Flexbox: CSS Flexbox is a one-dimensional layout system that focuses on arranging elements in a single row or column. It provides flexibility in distributing space and controlling the alignment of elements. Flexbox is ideal for building flexible and dynamic layouts, such as navigation menus, card grids, or vertically centered content.
