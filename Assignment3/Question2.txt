@@ -1,0 +1,9 @@
+The syntax to define media query:-
+
+@media mediaType and (mediaFeature) {
+  /* CSS rules to apply when the conditions are met */
+}
+
+- mediaType refers to the type of media being targeted, such as screen, print, speech, etc. It specifies the output device or media type on which the styles will be applied.
+
+- mediaFeature is an optional parameter that allows you to specify additional conditions based on device characteristics. Common media features include width, height, orientation, max-width, min-width, and more.

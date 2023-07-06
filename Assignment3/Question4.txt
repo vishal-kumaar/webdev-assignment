@@ -1,0 +1,1 @@
+The purpose of using media queries for print media is to create styles specifically tailored for printed output, such as generating PDFs or physical documents. By utilizing print-specific media queries, developers can customize the layout, fonts, and other print-specific properties to ensure optimal readability and aesthetics in printed materials.
