@@ -1,0 +1,21 @@
+The major features introduced in ECMAScript 6 are:-
+
+1. let and const: let and const keywords were introduced for block-scoped variable declarations, providing better control over variable scope and preventing unintended re-assignments.
+
+2. Arrow Functions: Arrow functions introduced a more concise syntax for writing function expressions, with implicit this binding and lexical scoping of this.
+
+3. Classes: ES6 introduced a class syntax that simplifies creating objects and working with inheritance in JavaScript, providing a more familiar syntax for developers coming from other languages.
+
+4. Template Literals: Template literals allow embedding expressions within strings using backticks () and placeholders ${expression}. This facilitates easy string interpolation and multiline strings.
+
+5. Destructuring Assignment: Destructuring assignment enables extracting values from arrays or objects into individual variables, making it easier to work with complex data structures.
+
+6. Default Parameters: Default parameter values can now be specified in function declarations, allowing parameters to have predefined values if no argument is provided.
+
+7. Spread Operator: The spread operator (...) enables expanding elements of an array or object into individual arguments or elements, simplifying array manipulation and object composition.
+
+8. Modules: ES6 introduced a standardized module system, allowing JavaScript code to be organized into reusable modules with explicit exports and imports, promoting better code organization and modularity.
+
+9. Promises: Promises provide a standardized way to handle asynchronous operations, replacing callback-based patterns with a more structured and readable syntax.
+
+10. Enhanced Object Literals: Object literals gained new features, including concise method syntax, computed property names, and shorthand property definitions, enhancing object creation and manipulation.\
