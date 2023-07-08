@@ -1,0 +1,275 @@
+/* Styles for all */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for navbar */
+nav {
+    background-color: #242B2E;
+    padding: 10px 30px;
+}
+
+nav>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    color: #CBC9C6;
+    font-weight: 600;
+}
+
+.nav-btn {
+    background-color: #0072E1;
+    outline: none;
+    border: none;
+    color: #C2DBF6;
+    padding: 7px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.menu {
+    width: 1.7rem;
+    display: none;
+    cursor: pointer;
+}
+
+.small-screen-nav{
+    display: none;
+}
+
+/* Styles for main section */
+.hero {
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.hero .left {
+    margin-top: 7rem;
+}
+
+.brand-heading {
+    color: #020202;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.brand-name {
+    color: #1792F7;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.brand-para {
+    color: #2997F6;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.partners-image {
+    width: 22rem;
+}
+
+.brand-desc {
+    color: #020202;
+    margin-top: 1.8rem;
+}
+
+.product-video {
+    width: 40rem;
+}
+
+
+/* Styles for information section */
+
+.information-section {
+    background-color: #000000;
+    text-align: center;
+    padding: 100px 10px;
+}
+
+.information-section-heading {
+    color: #393DC6;
+    font-size: 3.5rem;
+    margin-bottom: 60px;
+    font-weight: 600;
+}
+
+.information-section-subheading {
+    color: #FFFFFF;
+    font-size: 2.1rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background-color: #121315;
+    margin-top: 50px;
+    padding: 80px 50px;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-desc {
+    font-size: 17px;
+    line-height: 25px;
+    color: #839099;
+    max-width: 21rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-link {
+    font-size: 17px;
+    text-decoration: none;
+    color: #839099;
+}
+
+.footer-input {
+    outline: none;
+    border: none;
+    padding: 18px 12px;
+    width: 18rem;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+}
+
+.footer-btn {
+    display: block;
+    width: 100%;
+    background-color: #1893F7;
+    color: #fff;
+    padding: 18px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1040px) {
+    /* Styles for main section */
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-video {
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    /* Styles for footer */
+
+    footer{
+        padding: 80px 30px;
+    }
+
+    footer>div {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-desc{
+        max-width: 100%;
+    }
+
+    .footer-input {
+        width: calc(100% - 24px);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* Styles for navbar */
+    .nav-items{
+        display: none;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    /* Styles for information section */
+    .information-section {
+        background: #fff;
+    }
+
+    .information-section-heading {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .information-section-subheading {
+        font-size: 1.5rem;
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 380px){
+    /* Styles for main section */
+    .brand-heading{
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .brand-name{
+        font-size: 3rem;
+    }
+
+    .brand-para{
+        font-size: 1.1rem;
+    }
+
+    .partners-image{
+        width: 100%;
+    }
+}
