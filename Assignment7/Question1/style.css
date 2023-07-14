@@ -21,6 +21,7 @@ body {
     width: fit-content;
     margin: 5rem auto;
     padding: 50px;
+    width: 25rem;
     border-radius: 10px;
 }
 
@@ -48,7 +49,6 @@ body {
 #submit {
     height: 2rem;
     font-size: 16px;
-    min-width: 15rem;
     width: 100%;
     color: #000;
     background-color: #41E5ED;
@@ -83,7 +83,7 @@ body {
     border: 2px solid #fff;
     font-size: 16px;
     padding: 3px 0;
-    width: 15rem;
+    width: 100%;
     margin-top: 20px;
 }
 
