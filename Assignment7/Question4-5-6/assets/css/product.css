@@ -33,6 +33,7 @@ main {
     font-weight: 600;
     margin-bottom: 2rem;
     cursor: pointer;
+    word-break: break-all;
 }
 
 .product-price {
@@ -49,4 +50,21 @@ main {
     border-radius: 10px;
     cursor: pointer;
     width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    main {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .product-image {
+        width: 100%;
+    }
 }
