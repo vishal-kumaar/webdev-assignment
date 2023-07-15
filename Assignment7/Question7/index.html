@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Story Writing</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1 class="heading">Publish Your Story</h1>
+        <form>
+          <input type="text" placeholder="Enter Story Title" id="title-input" />
+          <input type="text" placeholder="Enter Image URL" id="image-input" />
+          <input
+            type="text"
+            placeholder="Enter Author Name"
+            id="author-input" />
+          <input
+            type="text"
+            placeholder="Category Eg Educational"
+            id="category-input" />
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Enter Your Story"
+            id="story-input"></textarea>
+          <button type="submit" class="btn">Publish My Story</button>
+        </form>
+      </div>
+      <div class="right">
+        <div id="image-area">Add image to see here.</div>
+        <div class="story-area">
+          <h1 id="title">ADD TITLE TO SEE HERE.</h1>
+          <p id="story">Add story to see here.</p>
+          <p id="category">Add category to see here.</p>
+          <p id="author">
+            Written By <span id="author-name">Author Name</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
