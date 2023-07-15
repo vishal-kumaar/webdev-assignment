@@ -63,7 +63,7 @@ const markTask = (index) => {
   if (taskObj[index].status === "Pending") {
     taskObj[index].status = "Completed";
   } else {
-    task[index].status = "Pending";
+    taskObj[index].status = "Pending";
   }
 
   localStorage.setItem("task", JSON.stringify(taskObj));

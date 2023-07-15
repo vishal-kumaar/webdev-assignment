@@ -176,7 +176,7 @@ button {
 @media screen and (max-width: 500px) {
     main {
         width: 90%;
-        margin: 0 auto;
+        margin: 1rem auto;
     }
 
     input {
