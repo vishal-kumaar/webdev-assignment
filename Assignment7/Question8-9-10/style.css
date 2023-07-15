@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #40414e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #afafb3;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #344FA1;
+    text-align: center;
+}
+
+main {
+    margin: 1rem;
+}
+
+.title {
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+#create-form {
+    margin-top: 2.5rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 11px 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: #CE18EC;
+    color: #fff;
+    width: 8rem;
+}
+
+#todos {
+    width: 80rem;
+    margin: 2rem auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.todo,
+#edit-form {
+    width: calc(33.33% - 20px);
+    padding: 20px 70px;
+}
+
+.todo {
+    background-color: #031956;
+    border-radius: 10px;
+}
+
+.task {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+
+.status {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.remove-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.mark-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.completed {
+    background-color: #008000;
+    color: #fff;
+}
+
+.pending {
+    background-color: #FFFF00;
+    color: #000;
+}
+
+.edit-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+#edit-area {
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+
+#edit-form {
+    background: #9564F3;
+    margin: 0 20px;
+    border-radius: 15px;
+}
+
+#edit-task-input {
+    margin-bottom: 3rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button {
+    background-color: #2F047F;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    width: 49%;
+}
+
+@media screen and (max-width: 1300px) {
+    #todos {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    .todo,
+    #edit-form {
+        width: calc(50% - 20px);
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #submit {
+        width: 100%;
+        display: block;
+    }
+
+    #todos {
+        padding-left: 0;
+        width: 90%;
+    }
+
+    .todo,
+    #edit-form {
+        width: 100%;
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .todo,
+    #edit-form {
+        width: 100%;
+        padding: 20px;
+    }
+}
