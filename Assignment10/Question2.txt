@@ -1,0 +1,11 @@
+It's a web application framework built on top of Node.js. Express provides a set of features and abstractions that make it easier and more organized to build web applications and APIs using Node.js. Here are some reasons why using Express over raw Node.js:
+
+1. Simplicity:- Express is lightweight and follows the "minimalist" philosophy, which means it provides just the essential features to build web applications without overwhelming developers with unnecessary abstractions.
+
+2. Routing:- Express offers a straightforward and flexible routing system, making it easy to define routes for different HTTP methods and URL patterns.
+
+3. Middleware Support:- Express has robust middleware support, allowing developers to integrate various functionalities like authentication, logging, compression, and more into the application.
+
+4. MVC Support:- Although not strictly enforcing the Model-View-Controller (MVC) pattern, Express allows developers to organize their code in a way that resembles MVC architecture, promoting separation of concerns and maintainability.
+
+5. Flexibility:- While being minimalistic, Express is also flexible enough to allow developers to make choices and use other libraries or tools as needed for their specific use cases.
