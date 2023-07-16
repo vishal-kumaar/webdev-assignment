@@ -1,0 +1,9 @@
+In React, when rendering a list of elements using the map function, each element in the list should have a unique key prop. The key prop helps React identify which items were added, changed, or removed in the list. It is a performance optimization that helps in efficient DOM updates.
+
+Using the key prop correctly is essential for the following reasons:
+
+1. React uses the key prop to efficiently update the DOM when the list changes. Without the key, React may have to re-render the entire list on every update, which can be inefficient.
+
+2. The key prop ensures that the components within the list maintain their state and don't remount unnecessarily when the list order changes.
+
+3. React uses keys to distinguish between elements. If no keys are provided or if keys are not unique, it can lead to errors and unexpected behavior.

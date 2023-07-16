@@ -1,0 +1,9 @@
+There are several ways to pass data from one component to another in React:
+
+1. Props:- The most common method is by passing data as props from a parent component to its child component.
+
+2. Context API: The Context API allows you to create a central store of data that can be accessed by components at different levels of the component tree.
+
+3. Redux: Redux is a state management library that allows you to store and manage the application's global state in a centralized store. Components can access this state using selectors.
+
+4. URL Parameters: If you're using React Router, you can pass data via URL parameters.

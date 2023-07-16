@@ -1,0 +1,7 @@
+In React, the setState method is used to update the component's state. Modifying state directly, without using setState, can lead to unexpected behavior and is generally not recommended. Here's why:
+
+1. Asynchronous Updates: When you use setState, React can batch multiple state updates together for performance reasons. If you modify the state directly, you might not get the desired behavior, as the changes might not be immediately reflected in the component's rendering.
+
+2. Re-rendering: React triggers a re-render when setState is used, which ensures that the UI reflects the updated state. If you modify state directly, React might not be aware of the change and won't re-render the component.
+
+3. State Management: setState handles the complexity of managing state updates and ensures that React can perform its state reconciliation process correctly.

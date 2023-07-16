@@ -1,0 +1,9 @@
+Hooks in React are functions that allow you to use state and other React features in functional components. Before hooks were introduced in React 16.8, state and lifecycle functionalities were only available in class components. Hooks provide a more straightforward and functional way to manage state and other React features in functional components.
+
+To identify hooks, look for the following characteristics:
+
+1. Hook Function Names:- Hooks always start with the prefix "use" followed by the name of the functionality they provide, like useState, useEffect, useContext, etc.
+
+2. Used in Functional Components:- Hooks can only be used within functional components or other custom hooks. You should not use hooks inside regular JavaScript functions or class components.
+
+3. Hooks Order and Consistency:- Hooks must be called in the same order on every render. This ensures that React can maintain the state correctly between renders
